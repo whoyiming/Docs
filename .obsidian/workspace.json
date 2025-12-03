@@ -184,6 +184,10 @@
   },
   "active": "38bba61a2edc8115",
   "lastOpenFiles": [
+    "images/file-20251203085402006.png",
+    "images/file-20251203085304898.png",
+    "images/file-20251203085231014.png",
+    "images",
     "codes/switchcondition.go",
     "codes/struct.go",
     "codes/slice.go",
@@ -192,8 +196,6 @@
     "codes/map.go",
     "codes/logical_operator.go",
     "codes/ifelsecondition.go",
-    "codes/forcondition.go",
-    "codes/datatypes.go",
-    "codes/consttypes.go"
+    "codes/forcondition.go"
   ]
 }

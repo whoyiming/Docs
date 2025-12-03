@@ -57,3 +57,6 @@ jobs:
 ```
 
 # 调整GitHub
+![](images/file-20251203085231014.png)![](images/file-20251203085304898.png)![](images/file-20251203085402006.png)
+
+经过以上配置，每次提交后，都会自动发布成功，部署为gp-pages页面。
