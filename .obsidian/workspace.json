@@ -199,9 +199,10 @@
   },
   "active": "76d6f4858f315e19",
   "lastOpenFiles": [
+    "new_name.adoc",
+    "拉取gitee下的私库.md",
     "images/file-20260105102833788.png",
     "利用GitHub Actions 部署AsciiDoc文档.md",
-    "拉取gitee下的私库.md",
     "images/file-20251203085402006.png",
     "images/file-20251203085304898.png",
     "images/file-20251203085231014.png",
@@ -213,7 +214,6 @@
     "codes/others_operator.go",
     "codes/map.go",
     "codes/logical_operator.go",
-    "codes/ifelsecondition.go",
-    "codes/forcondition.go"
+    "codes/ifelsecondition.go"
   ]
 }
