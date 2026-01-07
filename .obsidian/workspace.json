@@ -213,6 +213,9 @@
   },
   "active": "b1969a3092f5aa57",
   "lastOpenFiles": [
+    "something-todo/Untitled.md",
+    "something-todo/README.md",
+    "something-todo",
     "MySQL8忘记密码重置.md",
     "Hyper-V快速克隆创建虚拟机.md",
     "images/file-20260107095204790.png",
@@ -232,7 +235,6 @@
     "codes/printenv.go",
     "codes/others_operator.go",
     "codes/map.go",
-    "codes/logical_operator.go",
-    "codes/ifelsecondition.go"
+    "codes/logical_operator.go"
   ]
 }
