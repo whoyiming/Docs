@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,13 +211,13 @@
       "asciidoctor-editor:New asciidoc file": false
     }
   },
-  "active": "b1969a3092f5aa57",
+  "active": "76d6f4858f315e19",
   "lastOpenFiles": [
+    "Hyper-V快速克隆创建虚拟机.md",
     "something-todo/Untitled.md",
     "something-todo/README.md",
     "something-todo",
     "MySQL8忘记密码重置.md",
-    "Hyper-V快速克隆创建虚拟机.md",
     "images/file-20260107095204790.png",
     "images/file-20260107095152493.png",
     "images/file-20260107095139829.png",
