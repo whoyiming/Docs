@@ -8,8 +8,8 @@ github 上的项目地址为：https://github.com/openclaw/openclaw
 Windows10/11 下安装WSL2（Windows Subsystem for Linux 2）
 
 - 以管理员身份运行 PowerShell：wsl --install
-  安装成功后，在终端运行：ubuntu，输入用户名和密码后
-  运行：sudo apt update ， 安装nodejs：sudo apt install nodejs
+  安装成功后，在终端运行：ubuntu，输入用户名和密码登录
+  
   
 性能优化（.wslconfig） 在 _C:\Users\<用户名>\.wslconfig_ 中添加：
 [wsl2]
@@ -20,6 +20,17 @@ autoMemoryReclaim=true
 localhostForwarding=true
 guiApplications=true
 
+```
+
+安装linubrew：
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+如果安装很耗时，可以使用镜像：
+```
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 预装的软件NodeJS（>=22）、git
