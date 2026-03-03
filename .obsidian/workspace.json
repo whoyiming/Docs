@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "openclaw的安装部署.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "openclaw的安装部署"
             }
           },
           {
@@ -228,7 +228,7 @@
   "active": "47751aa278c55a27",
   "lastOpenFiles": [
     "拉取gitee下的私库.md",
-    "未命名.md",
+    "openclaw的安装部署.md",
     "Hyper-V快速克隆创建虚拟机.md",
     "something-todo/Untitled.md",
     "something-todo/README.md",
