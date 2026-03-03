@@ -8,6 +8,8 @@ github 上的项目地址为：https://github.com/openclaw/openclaw
 Windows10/11 下安装WSL2（Windows Subsystem for Linux 2）
 
 - 以管理员身份运行 PowerShell：wsl --install
+  安装成功后，在终端运行：ubuntu，输入用户名和密码后
+  运行：sudo apt update ， 安装nodejs：sudo apt install nodejs
   
 性能优化（.wslconfig） 在 _C:\Users\<用户名>\.wslconfig_ 中添加：
 [wsl2]
