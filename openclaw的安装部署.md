@@ -44,6 +44,9 @@ brew -v
 预装的软件NodeJS（>=22）、git
 ```
 brew install node@24
+echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/node@24/bin:$PATH"' >> ~/.profile
+source ~/.profile
+node -v
 ```
 
 安装openclaw，以后要升级 OpenClaw，还是这条命令。
