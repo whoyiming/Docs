@@ -45,3 +45,8 @@ brew -v
 ```
 brew install node@24
 ```
+
+安装openclaw，以后要升级 OpenClaw，还是这条命令。
+```
+curl -sSL https://openclaw.ai/install.sh | bash
+```
