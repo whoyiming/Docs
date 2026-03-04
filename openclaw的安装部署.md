@@ -87,4 +87,6 @@ openclaw onboard --install-daemon
 接下来配置 IM 工具。选择飞书
 ![](images/file-20260304202715862.png)
 
+Install Feishu plugin，选择 Download from npm
+![](images/file-20260304203159086.png)
 
