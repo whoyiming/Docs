@@ -200,3 +200,8 @@ Install Feishu plugin，选择 Download from npm
 openclaw gateway restart
 ```
 
+21、gateway 重新启动成功后，使用以下命令 发一个消息
+```
+openclaw message send --channel feishu --target 'ou_466b682099f73a0118ff195b23c02c36' --message "Hello from OpenClaw"
+```
+注意：其中的 “ou_466b682099f73a0118ff195b23c02c36” 需要替换为在12、13步的用户的 open_id。
