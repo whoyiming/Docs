@@ -161,3 +161,39 @@ Install Feishu plugin，选择 Download from npm
 9、出现对话框，点击“确认发布”。
 ![](images/file-20260304210124555.png)
 
+10、选择左侧菜单栏中的“凭证与基础信息”，复制 App ID 和 App Secret，后续配置将会用到
+![](images/file-20260304212107251.png)
+
+
+11、进入 API 调试台，创建一个新的飞书群
+![](images/file-20260304212418247.png)
+
+12、点击创建群，获取token，然后点击“快速复制 open_id”，选择你的飞书用户，点击“复制成员 ID”
+![](images/file-20260304212744794.png)
+
+
+13、将 JSON 内容中的 owner_id、user_id_list 都替换为刚才复制的用户的 open_id；将 bot_id_list 修改为第10步的应用的 App ID，再点击“开始调试”，显示调用成功
+![](images/file-20260304212917748.png)
+
+14、复制响应体中这个群的 chat_id
+![](images/file-20260304213339954.png)
+
+15、配置openclaw中的飞书
+![](images/file-20260304213927814.png)
+
+16、再回到飞书，选择左侧菜单栏中的“事件与回调”，为应用设置事件。订阅方式选择“使用长连接接收事件”，然后点击“保存”
+![](images/file-20260304213619318.png)
+
+17、添加事件
+![](images/file-20260304214916555.png)
+```
+im.chat.member.bot.added_v1
+im.chat.member.bot.deleted_v1
+im.message.message_read_v1
+im.message.receive_v1
+```
+
+17、skills可以先跳过以及后面的都可以先跳过，下面的默认
+![](images/file-20260304214527374.png)
+
+18、开始享受喜悦吧
