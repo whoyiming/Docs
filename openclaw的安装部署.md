@@ -78,3 +78,10 @@ curl -sSL https://openclaw.ai/install.sh | bash
 openclaw onboard --install-daemon
 ```
 
+按照提示来进行选择
+![](images/file-20260304201553925.png)
+
+选择相应的大模型，比如qwen时，按照上面提示操作即可
+![](images/file-20260304201824991.png)
+
+
