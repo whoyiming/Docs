@@ -184,10 +184,11 @@ Install Feishu plugin，选择 Download from npm
 16、再回到飞书，选择左侧菜单栏中的“事件与回调”，为应用设置事件。订阅方式选择“使用长连接接收事件”，然后点击“保存”
 ![](images/file-20260304213619318.png)
 
-17、添加事件，并创建版本（应用发布后，当前配置方可生效”，你都需要创建新版本并且重新发布。）
+17、添加事件，在消息与群组中添加，并创建版本（应用发布后，当前配置方可生效”，你都需要创建新版本并且重新发布。）
 ![](images/file-20260304214916555.png)
 ![](images/file-20260304215349162.png)
-
+![](images/file-20260304224403827.png)
+一定记得把消息已读、接收消息选上！！！
 
 18、回到终端，skills可以先跳过以及后面的都可以先跳过，下面的默认
 ![](images/file-20260304214527374.png)
@@ -207,7 +208,10 @@ openclaw message send --channel feishu --target 'ou_466b682099f73a0118ff195b23c0
 注意：其中的 “ou_466b682099f73a0118ff195b23c02c36” 需要替换为在12、13步的用户的 open_id。
 ![](images/file-20260304220739451.png)
 
-
+22、飞书发给openclaw的消息会变成配对码，需要在主机上执行，如：openclaw pairing approve feishu 77G8JGMD，这样很麻烦，解决方案是
+```
+openclaw channels add
+```
 
 注：
 终端交互式命令：openclaw tui
