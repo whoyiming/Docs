@@ -49,7 +49,27 @@ source ~/.profile
 node -v
 ```
 
+另外一种按照nodejs，上面用homebrew按照下载依赖包太多了
+```
+# 下载并安装 nvm：
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+# 代替重启 shell
+\. "$HOME/.nvm/nvm.sh"
+
+# 下载并安装 Node.js：
+nvm install 24
+
+# 验证 Node.js 版本：
+node -v # Should print "v24.14.0".
+
+# 验证 npm 版本：
+npm -v # Should print "11.9.0".
+
+```
+
 安装openclaw，以后要升级 OpenClaw，还是这条命令。
 ```
 curl -sSL https://openclaw.ai/install.sh | bash
 ```
+
