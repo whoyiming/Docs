@@ -184,16 +184,14 @@ Install Feishu plugin，选择 Download from npm
 16、再回到飞书，选择左侧菜单栏中的“事件与回调”，为应用设置事件。订阅方式选择“使用长连接接收事件”，然后点击“保存”
 ![](images/file-20260304213619318.png)
 
-17、添加事件
+17、添加事件，
 ![](images/file-20260304214916555.png)
-```
-im.chat.member.bot.added_v1
-im.chat.member.bot.deleted_v1
-im.message.message_read_v1
-im.message.receive_v1
-```
+![](images/file-20260304215349162.png)
 
-17、skills可以先跳过以及后面的都可以先跳过，下面的默认
+
+18、回到终端，skills可以先跳过以及后面的都可以先跳过，下面的默认
 ![](images/file-20260304214527374.png)
 
-18、开始享受喜悦吧
+19、开始享受喜悦吧
+![](images/file-20260304215433110.png)
+
