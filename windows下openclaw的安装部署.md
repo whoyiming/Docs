@@ -2,7 +2,7 @@ OpenClaw 的官网在：https://openclaw.ai
 官方文档在：https://docs.openclaw.ai/zh-CN
 github 上的项目地址为：https://github.com/openclaw/openclaw
 
-安装 OpenClaw 推荐的操作系统是 Linux 和 macOS，因此在Windows下，可以在 WSL2 的 Linux 环境中安装 OpenClaw。
+安装 OpenClaw 推荐的操作系统是 Linux 和 macOS，因此在Windows下，可以在 WSL2 的 Linux 环境中安装 OpenClaw或者hyper-v虚机下的Linux安装。
 
 ```
 Windows10/11 下安装WSL2（Windows Subsystem for Linux 2）
@@ -208,10 +208,19 @@ openclaw message send --channel feishu --target 'ou_466b682099f73a0118ff195b23c0
 注意：其中的 “ou_466b682099f73a0118ff195b23c02c36” 需要替换为在12、13步的用户的 open_id。
 ![](images/file-20260304220739451.png)
 
-22、飞书发给openclaw的消息会变成配对码，需要在主机上执行，如：openclaw pairing approve feishu 77G8JGMD，这样很麻烦，解决方案是
+22、飞书发给openclaw的消息会变成配对码，需要在主机上（不要进入openclaw cli）执行，如：openclaw pairing approve feishu 77G8JGMD，这样很麻烦，解决方案是
 ```
 openclaw channels add
 ```
+![](images/file-20260304225152324.png)
+前面已经配置了的内容不变，DM这一步选择YES
+
+![](images/file-20260304225247113.png)
+选择Allowlist
+![](images/file-20260304225541085.png)
+输入12、13步的open id
+
+
 
 注：
 终端交互式命令：openclaw tui

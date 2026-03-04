@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "openclaw的安装部署.md",
+                "file": "windows下openclaw的安装部署.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "openclaw的安装部署"
+              "title": "windows下openclaw的安装部署"
             }
           },
           {
@@ -227,6 +227,10 @@
   },
   "active": "47751aa278c55a27",
   "lastOpenFiles": [
+    "images/file-20260304225541085.png",
+    "images/file-20260304225334692.png",
+    "images/file-20260304225247113.png",
+    "images/file-20260304225152324.png",
     "images/file-20260304224403827.png",
     "images/file-20260304220739451.png",
     "images/file-20260304215433110.png",
@@ -234,12 +238,8 @@
     "images/file-20260304214916555.png",
     "images/file-20260304214527374.png",
     "images/file-20260304213927814.png",
-    "images/file-20260304213619318.png",
-    "images/file-20260304213518876.png",
-    "images/file-20260304213339954.png",
-    "images/file-20260304212917748.png",
     "拉取gitee下的私库.md",
-    "openclaw的安装部署.md",
+    "windows下openclaw的安装部署.md",
     "Hyper-V快速克隆创建虚拟机.md",
     "something-todo/Untitled.md",
     "something-todo/README.md",
