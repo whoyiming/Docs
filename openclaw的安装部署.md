@@ -195,3 +195,8 @@ Install Feishu plugin，选择 Download from npm
 19、开始享受喜悦吧
 ![](images/file-20260304215433110.png)
 
+20、实现飞书机器人的配对，每次当飞书应用重新发布后，都需要执行以下命令重新启动 OpenClaw 的 gateway。
+```
+openclaw gateway restart
+```
+
