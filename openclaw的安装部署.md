@@ -73,3 +73,8 @@ npm -v # Should print "11.9.0".
 curl -sSL https://openclaw.ai/install.sh | bash
 ```
 
+安装成功后，若没有出现配置画面，可在终端运行
+```
+openclaw onboard --install-daemon
+```
+
