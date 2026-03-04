@@ -207,3 +207,8 @@ openclaw message send --channel feishu --target 'ou_466b682099f73a0118ff195b23c0
 注意：其中的 “ou_466b682099f73a0118ff195b23c02c36” 需要替换为在12、13步的用户的 open_id。
 ![](images/file-20260304220739451.png)
 
+
+
+注：
+终端交互式命令：openclaw tui
+以指定端口启动：openclaw gateway --port 18789 --verbose
