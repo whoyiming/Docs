@@ -90,3 +90,6 @@ openclaw onboard --install-daemon
 Install Feishu plugin，选择 Download from npm
 ![](images/file-20260304203159086.png)
 
+飞书插件安装好后，进行飞书配置
+
+1、登录飞书开放平台
