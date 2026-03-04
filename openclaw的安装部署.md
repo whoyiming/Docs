@@ -84,4 +84,7 @@ openclaw onboard --install-daemon
 选择相应的大模型，比如qwen时，按照上面提示操作即可
 ![](images/file-20260304201824991.png)
 
+接下来配置 IM 工具。选择飞书
+![](images/file-20260304202715862.png)
+
 
