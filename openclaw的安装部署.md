@@ -92,4 +92,72 @@ Install Feishu plugin，选择 Download from npm
 
 飞书插件安装好后，进行飞书配置
 
-1、登录飞书开放平台
+1、登录飞书开放平台（open.feishu.cn），选择“创建企业自建应用”。
+![](images/file-20260304205144437.png)
+将内容填写
+
+2、应用创建后，选择“添加应用能力”中的“机器人”。
+![](images/file-20260304205351306.png)
+
+3、添加权限管理
+![](images/file-20260304205456929.png)
+
+4、复制以下内容，替换对话框中的 JSON 内容，然后点击“下一步，确认新增权限”。
+```
+{
+  "scopes": {
+    "tenant": [
+      "aily:file:read",
+      "aily:file:write",
+      "application:application.app_message_stats.overview:readonly",
+      "application:application:self_manage",
+      "application:bot.menu:write",
+      "cardkit:card:write",
+      "contact:contact.base:readonly",
+      "contact:user.base:readonly",
+      "contact:user.employee_id:readonly",
+      "corehr:file:download",
+      "docs:document.content:read",
+      "event:ip_list",
+      "im:chat",
+      "im:chat.access_event.bot_p2p_chat:read",
+      "im:chat.members:bot_access",
+      "im:chat:create",
+      "im:message",
+      "im:message.group_at_msg:readonly",
+      "im:message.group_msg",
+      "im:message.p2p_msg:readonly",
+      "im:message:readonly",
+      "im:message:send_as_bot",
+      "im:resource",
+      "sheets:spreadsheet",
+      "wiki:wiki:readonly"
+    ],
+    "user": [
+      "aily:file:read",
+      "aily:file:write",
+      "contact:user.employee_id:readonly",
+      "im:chat",
+      "im:chat.access_event.bot_p2p_chat:read",
+      "im:chat:read",
+      "im:chat:readonly"
+    ]
+  }
+}
+```
+
+5、出现新的对话框，点击“申请开通”
+![](images/file-20260304205646405.png)
+
+6、出现下面这个界面，不需要做任何修改，直接点击“确认”。
+![](images/file-20260304205726094.png)
+
+7、创建版本
+![](images/file-20260304205938419.png)
+
+8、输入版本号，并保存
+![](images/file-20260304210058173.png)
+
+9、出现对话框，点击“确认发布”。
+![](images/file-20260304210124555.png)
+
