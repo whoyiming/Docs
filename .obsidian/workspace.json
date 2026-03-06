@@ -27,20 +27,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "拉取gitee下的私库.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "拉取gitee下的私库"
-            }
-          },
-          {
-            "id": "47751aa278c55a27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "windows下openclaw的安装部署.md",
                 "mode": "source",
                 "source": false
@@ -64,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,10 +211,11 @@
       "asciidoctor-editor:New asciidoc file": false
     }
   },
-  "active": "47751aa278c55a27",
+  "active": "76d6f4858f315e19",
   "lastOpenFiles": [
+    "拉取gitee下的私库.md",
+    "windows下openclaw的安装部署.md",
     "images/file-20260304225541085.png",
-    "images/file-20260304225334692.png",
     "images/file-20260304225247113.png",
     "images/file-20260304225152324.png",
     "images/file-20260304224403827.png",
@@ -238,8 +225,6 @@
     "images/file-20260304214916555.png",
     "images/file-20260304214527374.png",
     "images/file-20260304213927814.png",
-    "拉取gitee下的私库.md",
-    "windows下openclaw的安装部署.md",
     "Hyper-V快速克隆创建虚拟机.md",
     "something-todo/Untitled.md",
     "something-todo/README.md",
